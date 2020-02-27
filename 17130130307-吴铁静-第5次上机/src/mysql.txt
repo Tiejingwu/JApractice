@@ -1,0 +1,10 @@
+create database javatest;
+use javatest;
+create table student(ID char(30) not null primary key,
+                                  name char(30),
+                                  sex     char(30),
+                                  age     char(30));
+insert into student values('17130130307','wutiejing','female','19');
+insert into student values('17130130308','cuichenxi','female','19');
+insert into student values('17130130309','dongguannan','female','20');
+insert into student values('17130130310','zhouyuting','female','20');
